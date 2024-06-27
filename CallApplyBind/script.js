@@ -34,6 +34,6 @@ printFullName2.call(name2, 'Mumbai', "MH");
 printFullName2.apply(name2, ['Mumbai', "MH"]); // second arg as an array list
 
 //bind method
-let printMyName = printFullName.bind(name2, 'Mumbai', 'MH')
+let printMyName = printFullName.bind(name2, 'Mumbai')
 // bind method binds the func to an object and returns the copy of that method/func to be called later.
-printMyName()
+printMyName("MH")

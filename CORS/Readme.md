@@ -5,7 +5,7 @@ It is a mechanism which uses additional HTTP headers to tell the browser whether
 - **CORS Preflight Mechanism:** A preflight(Options) call is made before the actual API call. Then this CORS mechanism(from server browser) uses additional HTTP headers to verify this request first.
 After the server verifies that call is safe then the actual API call is made.
 - **Additional HTTP headers:**
-  - **Accept-Control-Allow-Origin:** This is set by the server. It can have different values(*: any domain outside can access this server, <domain anme>: to restrict it for this domain only.)
-  - **Access-Control-Allow_Methods:** To restrict API methods PUT, POST, etc.
+  - **Accept-Control-Allow-Origin:** This is set by the server. It can have different values(*: any domain outside can access this server, 'domain name': to restrict it for this domain only.)
+  - **Access-Control-Allow-Methods:** To restrict API methods PUT, POST, etc.
 
 ![CORS Flow Diagram](cors.webp "Cors Flow Diagram")

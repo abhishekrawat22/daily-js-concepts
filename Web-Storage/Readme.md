@@ -1,0 +1,1 @@
+More Resource: https://www.freecodecamp.org/news/web-storage-localstorage-vs-sessionstorage-in-javascript/

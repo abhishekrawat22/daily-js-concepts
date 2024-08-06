@@ -1,6 +1,9 @@
 let fullName = {
     firstName: 'Abhishek',
-    lastName: 'Rawat'
+    lastName: 'Rawat',
+    printFullName = function() {
+        console.log(this.firstName + " " + this.lastName);
+    }
 }
 
 fullName.printFullName();
